@@ -47,6 +47,15 @@ All credentials and settings are currently stored in plaintext in the source cod
 🪟 Tightly coupled to RRAS
 This utility is specifically built for RRAS-based VPN services on Windows Server. You will need to adapt the logic if using a different VPN solution.
 
+📝📝 SQL DATABASE SCHEME  📝📝
+	
+ CREATE TABLE clienti (
+    IPAddress NVARCHAR(15) PRIMARY KEY,
+    Username NVARCHAR(255) NOT NULL,
+    OnlineStatus BIT NOT NULL,
+    LastSeen DATETIME NOT NULL,
+);
+
 
 ‼️‼️Recommendations for Production Use ‼️‼️
 
