@@ -1,4 +1,4 @@
-his application goes hand in hand with: https://github.com/Bxaldy/windows-vpn-client-manager 
+This application goes hand in hand with: https://github.com/Bxaldy/windows-vpn-client-manager 
 
 A .NET-based monitoring utility that aggregates VPN client connection statistics from multiple Windows RRAS servers into a centralized SQL database. Designed for network operations teams needing real-time visibility into VPN client statuses.
 
